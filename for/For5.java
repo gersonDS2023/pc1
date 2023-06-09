@@ -12,16 +12,14 @@ public class For5 {
 		int totMaiorCinco=0;
 		int totMenorCinco=0;
 		
-		
 		double salarioFuncionario;
 		
-		System.out.println ("Digite a Qtd de Funcionários ");
+		System.out.println ("Digite a Qtd de Funcionï¿½rios ");
 		nCandidatos = sc.nextInt();
-		
 		
 		for (contador=0; contador<nCandidatos; contador++) {
 		
-				System.out.println ("Digite o salario do Funcionário : ");
+				System.out.println ("Digite o salario do Funcionï¿½rio : ");
 			    salarioFuncionario = sc.nextDouble ();
 			    
 			    if (salarioFuncionario>=5000) {
@@ -34,11 +32,9 @@ public class For5 {
 		}//for
 		
 		
-		
-		
 		System.out.println ("");
 		System.out.println ("----------------------------");
-		System.out.println ("    Relatório de Salários - Geral  ");
+		System.out.println ("    Relatï¿½rio de Salï¿½rios - Geral  ");
 		System.out.println ("----------------------------");
 		
 		System.out.println ("Total de Funcionarios com salario >= 5000 ---> " + totMaiorCinco);
@@ -46,13 +42,11 @@ public class For5 {
 		
 		float percMaiorCinco = (totMaiorCinco*100)/nCandidatos;
 		float percMenorCinco = (totMenorCinco*100)/nCandidatos;
-		
 				
 		System.out.println ("Percentual Maior = " + percMaiorCinco + "%");
 		System.out.println ("Percentual menor = " + percMenorCinco + "%");
 				
 		} 
-	
-		
+			
 }
 

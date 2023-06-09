@@ -9,7 +9,6 @@ public class CadBois {
 	  Double pesoBoi,pesoBoiMaisLeve=1000.0, pesoBoiMaisPesado=0.0; 
 	  String nomeBoi;
 	  
-	  
 	  System.out.println ("Digite a qtd. de lancamentos : ");
 	   nBois  = sc.nextInt();
 		
@@ -50,18 +49,16 @@ public class CadBois {
 	  
 	   float percME = totMenor300*100/nBois;
 	  
-	  
-	  
 	  System.out.println ("");
 	  System.out.println ("------------BOI MAIS LEVE-----------------------");
-	  System.out.println ("Código do boi mais leve ==> " + codigoBoiMaisLeve);
+	  System.out.println ("Cï¿½digo do boi mais leve ==> " + codigoBoiMaisLeve);
 	  System.out.println ("----------------------------------------");
 	  System.out.println ("Peso do boi mais leve   ==> " + pesoBoiMaisLeve);
 	
 	  System.out.println ("");System.out.println ("");System.out.println ("");
 	  
 	  System.out.println ("------------BOI MAIS PESADO-----------------------");
-	  System.out.println ("Código do boi mais pesado ==> " +codigoBoiMaisPesado );
+	  System.out.println ("Cï¿½digo do boi mais pesado ==> " +codigoBoiMaisPesado );
 	  System.out.println ("----------------------------------------");
 	  System.out.println ("Peso do boi mais pesado   ==> " + pesoBoiMaisPesado);
 	  
@@ -74,9 +71,7 @@ public class CadBois {
 	  
 	  System.out.println ("% bois menos 300KG   ==> " + percME);
 	  
-	  
-	  
-	  
+	  	  
 	}
 
 }

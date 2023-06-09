@@ -18,9 +18,7 @@ public class For3 {
 		
 		for (contador=0; contador<=10; contador ++) {
 		    resultado = ntab * contador;
-		    System.out.println (ntab + " x " + contador +  " = " + resultado);
-		    
-		    
+		    System.out.println (ntab + " x " + contador +  " = " + resultado);		    
 			
 		}
 

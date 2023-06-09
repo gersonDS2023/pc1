@@ -2,8 +2,6 @@ package listaA;
 
 import java.util.Scanner;
 
-
-
 public class For1 {
 
 	public static void main(String[] args) {
@@ -16,7 +14,7 @@ public class For1 {
 		
 		for (contador=0; contador<num; contador++) {
 			
-			System.out.println ("Etec - Curso Tecnico (Informática)" + (contador+1));
+			System.out.println ("Etec - Curso Tecnico (Informï¿½tica)" + (contador+1));
 		}
 		
 		

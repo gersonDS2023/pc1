@@ -28,8 +28,7 @@ public class A8 {
 	    sl=sb-td; //calculo do salario liquido
 	    
 	    //apresentar o salario bruto 
-	    
-	    
+
 	    System.out.println("");
 	    System.out.println("-----------------------------");
 		   
@@ -45,16 +44,7 @@ public class A8 {
 	    System.out.println("-----------------------------");
 		
 	    System.out.println("Salario Liquido = " +sl);
-	    
-	    
-	    
-	    
-	    
-	    
-		
-		
-		
 
-	}
+	}//metodo
 
-}
+}//classe
